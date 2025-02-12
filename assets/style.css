@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 5px;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    justify-content: center;
+    width: 100%; /*para que sea responsiva*/
+    padding: 0;
+    margin: 0;
+}
+
+/*Barra de navegación*/
+.fondonavbar{
+    padding: 0;
+    background-color: #fdb202;
+    height: 50px;
+}
+
+.fondonavbar a{
+    color: white;
+    font-size: large;
+    
+}
+
+.hovercolor :hover{
+    background-color: #fee990;
+    color: #fdb202;
+}
+
+
+.coloractivo a{
+    color: #fee990;
+}
+
+
+
+/*Carousel edicion de imagenes*/
+.dimensiones{
+    width: 80%;
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 600px;
+}
+
+
+
+
+.content-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-box{
+    display: flex;
+    height: 205px;
+    
+}
+
+.box-logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.info{
+    font-size: 20px;
+    font-family: "darker grotesque";
+
+}
+
+
+.sobremibox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sobremibox-item{
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+}
+
+.sobremibox-item img{
+    width: 100%;
+}
+
+/*Creación de la grilla*/
+/*Para que las imagenes se ajusten al tamaño de la celda*/
+.contenedor-grid img{
+    width: 80%;
+    height: 80%;
+}
+
+.contenedor-grid{
+    display: grid;
+    /*Cantidad y tamaño*/
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    /*ubico los elementos*/
+grid-template-areas:
+"obra1 texto1" 
+"obra2 texto2"
+"obra3 texto3"
+"obra4 texto4"
+"obra5 texto5";
+justify-content:center;
+align-items: center;
+justify-items: center;
+}
+
+/*Asigno clase a los elementos*/
+.grid-imagen1{
+    grid-area: obra1;
+}
+
+.grid-texto1{
+    grid-area: texto1;
+}
+
+.grid-imagen2{
+    grid-area: obra2;
+}
+
+.grid-texto2{
+    grid-area: texto2;
+}
+
+.grid-imagen3{
+    grid-area: obra3;
+}
+
+.grid-texto3{
+    grid-area: texto3;
+}
+
+.grid-imagen4{
+    grid-area: obra4;
+}
+ .grid-texto4{
+    grid-area: texto4;
+ }
+
+.grid-imagen5{
+    grid-area: obra5;
+}
+
+.grid-texto5{
+    grid-area: texto5;
+}
+
+
+
+/*Formulario de contacto page contacto*/
+.form{
+    display: flex;
+    background-color: #fee990;
+    max-width: 400px;
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 60px;
+    margin-left: 100px;
+}
+
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+
+}
+.form-input{
+    font-family:"darker grotesque";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #fdb202;
+    height: 80px;
+    font-family: "darker grotesque", serif;
+    padding: 1rem;
+    text-align: left;
+    justify-content: center;
+}
+
+
+
+/*Hago responsivos*/
+
+/*para mobile*/
+@media (max-width:450px){
+
+
+}
