@@ -70,28 +70,30 @@ header{
 }
 
 
+/*pag sobre mi*/
 .info{
     font-size: 20px;
     font-family: "darker grotesque";
-
+    padding: 30px;
 }
-
 
 .sobremibox{
     display: flex;
     justify-content: center;
-    align-content: center;
-}
-
-.sobremibox-item{
+    flex-direction: row;
     align-items: center;
-    justify-items: center;
-    padding: 50px;
 }
 
-.sobremibox-item img{
+.imagenesdeportada{
     width: 100%;
+    height: 500px;
+    padding: 30px;
+    border-radius: 15px;
 }
+
+/*fin sobre mi*/
+
+
 
 /*Creación de la grilla*/
 /*Para que las imagenes se ajusten al tamaño de la celda*/
@@ -162,7 +164,7 @@ justify-items: center;
 /*Formulario de contacto page contacto*/
 .form{
     display: flex;
-    background-color: #fee990;
+    background-color: white;
     max-width: 400px;
     border-radius: 1rem;
     padding: 20px;
@@ -172,6 +174,7 @@ justify-items: center;
 
 .form-container{
     width: 100%;
+    width: 400px;
     display: grid;
     gap: 1rem;
     grid-auto-columns: 100%;
@@ -182,27 +185,53 @@ justify-items: center;
 }
 .form-input{
     font-family:"darker grotesque";
-
+    
 }
 
 
 
+.form-container h2{
+    font-family: "darker grotesque";
+    text-align: center;
+    font-size: 40px;
 
+}
 
-
-
-
-
-
-
-.footer {
-    background-color: #fdb202;
-    height: 80px;
-    font-family: "darker grotesque", serif;
-    padding: 1rem;
-    text-align: left;
+.contacto{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
+
+/*footer*/
+.footer{
+    background-color: #fdb202;
+    width: 100%;
+    padding: 20px 0;
+
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.social-elem{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -210,6 +239,8 @@ justify-items: center;
 
 /*para mobile*/
 @media (max-width:450px){
-
+    .sobremibox{
+        flex-direction: column;
+    }
 
 }
