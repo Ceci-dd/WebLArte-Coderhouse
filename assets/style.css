@@ -15,9 +15,7 @@ header{
 
 /*Barra de navegación*/
 .fondonavbar{
-    padding: 0;
     background-color: #fdb202;
-    height: 50px;
 }
 
 .fondonavbar a{
@@ -124,6 +122,8 @@ justify-items: center;
     grid-area: obra1;
 }
 
+
+
 .grid-texto1{
     grid-area: texto1;
 }
@@ -202,7 +202,30 @@ justify-items: center;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
+
+.otrasformasdecontacto{
+    font-family: "darker grotesque";
+    justify-content: center;
+    align-content: center;
+}
+
+.infodeproductos{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infodeproductos img{
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 30px;
+}
+
+
 
 /*footer*/
 .footer{
