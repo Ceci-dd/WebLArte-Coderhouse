@@ -57,6 +57,7 @@ header{
 .content-box{
     display: flex;
     height: 205px;
+
     
 }
 
@@ -90,7 +91,6 @@ header{
 }
 
 /*fin sobre mi*/
-
 
 
 /*Creación de la grilla*/
@@ -201,7 +201,6 @@ justify-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     align-content: center;
 }
 
@@ -261,9 +260,19 @@ justify-items: center;
 /*Hago responsivos*/
 
 /*para mobile*/
-@media (max-width:450px){
-    .sobremibox{
+@media (max-width:500px){
+
+    .dimensiones{
+       height: auto;
+    }  
+
+    .contacto{
         flex-direction: column;
     }
 
+    .sobremibox{
+        flex-direction: column;
+    }
 }
+
+
