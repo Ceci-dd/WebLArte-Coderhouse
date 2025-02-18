@@ -267,13 +267,46 @@ justify-items: center;
 
     .contacto{
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
+        
     }
 
     .sobremibox{
         flex-direction: column;
     }
+
+    .contenedor-grid{
+        margin: auto;
+        /*ubico los elementos*/
+    grid-template-areas:
+    "obra1 obra1" 
+    "obra2 obra2"
+    "obra3 obra3"
+    "obra4 obra4"
+    "obra5 obra5" ;
+    }
+    
+
+    .grid-texto1{
+        visibility: hidden; 
+
+    }
+
+    .grid-texto2{
+        visibility: hidden;
+    }
+
+    .grid-texto3{
+        visibility: hidden;
+    }
+
+    .grid-texto4{
+        visibility: hidden;
+    }
+
+    .grid-texto5{
+        visibility: hidden;
+    }
+
 }
 
 
