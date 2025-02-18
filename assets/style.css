@@ -195,6 +195,7 @@ justify-items: center;
 
 }
 
+/*otras formas de contacto*/
 .contacto{
     display: flex;
     flex-direction: row;
@@ -267,6 +268,8 @@ justify-items: center;
 
     .contacto{
         flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
         
     }
 
@@ -275,15 +278,22 @@ justify-items: center;
     }
 
     .contenedor-grid{
-        margin: auto;
-        /*ubico los elementos*/
+        grid-template-columns: 95%;
+        grid-template-rows: auto;
+        width: 95%;
+        margin-left: 50px;
+       
+        
+        
+    /*ubico los elementos*/
     grid-template-areas:
-    "obra1 obra1" 
-    "obra2 obra2"
-    "obra3 obra3"
-    "obra4 obra4"
-    "obra5 obra5" ;
+    "obra1" 
+    "obra2"
+    "obra3"
+    "obra4"
+    "obra5" ;
     }
+
     
 
     .grid-texto1{
