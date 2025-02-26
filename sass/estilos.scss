@@ -1,0 +1,30 @@
+//comentario de sass
+/*comentario de css*/
+
+//Nesting
+
+@import "partials/variables";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/carouselygrillas";
+@import "partials/contacto";
+@import "partials/masinfodeproductos";
+@import "partials/sobremi";
+@import "partials/masinfodeproductos";
+@import "partials/mediaq";
+
+//variables se ubica primero
+/*@use "partials/variables";
+@use "partials/header";
+@use "partials/footer";
+@use "partials/carouselygrillas";
+@use "partials/contacto";
+@use "partials/masinfodeproductos";
+@use "partials/sobremi";
+//mediaq siempre ultimo
+@use "partials/mediaq";*/
+
+
+
+
+

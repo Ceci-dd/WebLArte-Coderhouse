@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/*comentario de css*/
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+  background-color: white;
+  justify-content: center;
+  width: 100%; /*para que sea responsiva*/
+  padding: 0;
+  margin: 0;
+}
+.header .content-box {
+  display: flex;
+  justify-content: center;
+  height: 205px;
+}
+.header .content-box .box-logo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 15px;
+}
+.header .fondonavbar {
+  background-color: #fdb202;
+}
+.header .fondonavbar a {
+  color: white;
+  font-size: large;
+}
+.header .fondonavbar .hovercolor :hover {
+  background-color: #fee990;
+  color: #fdb202;
+  transform: scale(1.1);
+}
+.header .fondonavbar .coloractivo a {
+  color: #fee990;
+}
+
+.footer {
+  background-color: #fdb202;
+  width: 100%;
+  padding: 20px 0;
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer .social-elem {
+  text-decoration: none;
+}
+
+.dimensiones {
+  width: 80%;
+  padding: 25px;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 600px;
+}
+
+.mainproductos .grilla-productos {
+  /*Asigno clase a los elementos*/
+}
+.mainproductos .grilla-productos .contenedor-grid {
+  display: grid;
+  /*Cantidad y tamaño*/
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 300px 300px 300px 300px 300px;
+  /*ubico los elementos*/
+  grid-template-areas: "obra1 texto1" "obra2 texto2" "obra3 texto3" "obra4 texto4" "obra5 texto5";
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.mainproductos .grilla-productos .contenedor-grid img {
+  width: 80%;
+  height: 80%;
+}
+.mainproductos .grilla-productos .grid-imagen1 {
+  grid-area: obra1;
+}
+.mainproductos .grilla-productos .grid-texto1 {
+  grid-area: texto1;
+}
+.mainproductos .grilla-productos .grid-imagen2 {
+  grid-area: obra2;
+}
+.mainproductos .grilla-productos .grid-texto2 {
+  grid-area: texto2;
+}
+.mainproductos .grilla-productos .grid-imagen3 {
+  grid-area: obra3;
+}
+.mainproductos .grilla-productos .grid-texto3 {
+  grid-area: texto3;
+}
+.mainproductos .grilla-productos .grid-imagen4 {
+  grid-area: obra4;
+}
+.mainproductos .grilla-productos .grid-texto4 {
+  grid-area: texto4;
+}
+.mainproductos .grilla-productos .grid-imagen5 {
+  grid-area: obra5;
+}
+.mainproductos .grilla-productos .grid-texto5 {
+  grid-area: texto5;
+}
+
+.maincontacto .contacto-section .contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.maincontacto .contacto-section .contacto .otrasformasdecontacto {
+  font-family: "darker grotesque", sanserif;
+  justify-content: center;
+  align-content: center;
+}
+.maincontacto .contacto-section .contacto .otrasformasdecontacto .otrasformasdecontactologos {
+  display: flex;
+  padding: 15px;
+}
+.maincontacto .contacto-section .form {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 20px;
+  margin: 60px;
+  margin-left: 100px;
+}
+.maincontacto .contacto-section .form .form-container {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.maincontacto .contacto-section .form .form-container h2 {
+  font-family: "darker grotesque", sanserif;
+  text-align: center;
+  font-size: 40px;
+}
+.maincontacto .contacto-section .form .form-container .form-input {
+  font-family: "darker grotesque", sanserif;
+}
+
+.masinfo-section .infodeproductos {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.masinfo-section .infodeproductos img {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  padding-bottom: 30px;
+}
+
+.section-sobremi .sobremibox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.section-sobremi .imagenesdeportada {
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.section-sobremi .sobremibox-item .info {
+  font-size: 20px;
+  font-family: "darker grotesque", sanserif;
+  padding: 30px;
+}
+
+.masinfo-section .infodeproductos {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.masinfo-section .infodeproductos img {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  padding-bottom: 30px;
+}
+
+/*Hago responsivos*/
+/*para mobile*/
+@media (max-width: 500px) {
+  .dimensiones {
+    height: auto;
+  }
+  .maincontacto .contacto-section .contacto {
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .maincontacto .contacto-section .contacto .otrasformasdecontacto {
+    justify-content: center;
+  }
+  .maincontacto .contacto-section .form {
+    justify-content: center;
+  }
+  /*sobremi*/
+  .mainsobremi .section-sobremi .sobremibox {
+    flex-direction: column;
+  }
+  /*productos*/
+  .mainproductos .grilla-productos .contenedor-grid {
+    grid-template-columns: 95%;
+    grid-template-rows: auto 200px auto 200px auto 200px auto 200px auto 200px;
+    width: 95%;
+    margin: 10px;
+    padding: 5px;
+    /*ubico los elementos*/
+    grid-template-areas: "obra1" "texto1" "obra2" "texto2" "obra3" "texto3" "obra4" "texto4" "obra5" "texto5";
+  }
+  .mainproductos .grilla-productos .contenedor-grid .grid-texto1 {
+    border: solid 1px;
+    border-color: #fdb202;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .grid-texto2 {
+    border: solid black 1px;
+    border-color: #fdb202;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .grid-texto3 {
+    border: solid black 1px;
+    border-color: #fdb202;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .grid-texto4 {
+    border: solid black 1px;
+    border-color: #fdb202;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .grid-texto5 {
+    border: solid black 1px;
+    border-color: #fdb202;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+/*@use "partials/variables";
+@use "partials/header";
+@use "partials/footer";
+@use "partials/carouselygrillas";
+@use "partials/contacto";
+@use "partials/masinfodeproductos";
+@use "partials/sobremi";
+//mediaq siempre ultimo
+@use "partials/mediaq";*/
+
+/*# sourceMappingURL=estilos.css.map */

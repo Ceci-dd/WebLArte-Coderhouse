@@ -1,0 +1,118 @@
+//mediaq
+
+/*Hago responsivos*/
+
+/*para mobile*/
+@media (max-width:500px){
+
+    .dimensiones{
+       height: auto;
+    }  
+
+
+    .maincontacto{
+        .contacto-section{
+
+            .contacto{
+                flex-direction: column;
+                margin: auto;
+                justify-content: space-between;
+    
+            .otrasformasdecontacto{
+                justify-content: center;
+            }
+            }
+
+            .form{
+                justify-content: center;
+            }
+        }
+    }
+
+    /*sobremi*/
+ 
+    .mainsobremi{
+        .section-sobremi{
+            .sobremibox{
+                flex-direction: column;
+            }
+        }
+    }
+
+    
+    /*productos*/
+
+   .mainproductos{
+        
+        .grilla-productos{
+           
+            .contenedor-grid{
+                grid-template-columns: 95%;
+                grid-template-rows: auto 200px auto 200px auto 200px auto 200px auto 200px;
+                width: 95%;
+                margin: 10px;
+                padding: 5px;
+                  
+               .grid-texto1 {
+                border: solid 1px;
+                border-color: $colorprincipal;
+                padding: 10px;
+                font-size: 12px; 
+                
+        
+               } 
+
+               .grid-texto2{
+                border: solid black 1px;
+                border-color: $colorprincipal;
+                padding: 10px;
+                font-size: 12px; 
+               } 
+
+               .grid-texto3{
+                border: solid black 1px;
+                border-color: $colorprincipal;
+                padding: 10px;
+                font-size: 12px; 
+                
+        
+               } 
+
+               .grid-texto4{
+                border: solid black 1px;
+                border-color: $colorprincipal;
+                padding: 10px;
+                font-size: 12px; 
+               } 
+
+               .grid-texto5{
+                border: solid black 1px;
+                border-color: $colorprincipal;
+                padding: 10px;
+                font-size: 12px; 
+               } 
+
+
+
+              
+
+                
+               
+            /*ubico los elementos*/
+            grid-template-areas:
+            "obra1" 
+            "texto1"
+            "obra2"
+            "texto2"
+            "obra3"
+            "texto3" 
+            "obra4"
+            "texto4"
+            "obra5"
+            "texto5";
+
+
+            }
+        }
+   }
+}

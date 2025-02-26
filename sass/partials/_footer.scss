@@ -1,0 +1,16 @@
+//Footer
+.footer{
+    background-color: $colorprincipal;
+    width: 100%;
+    padding: 20px 0;
+
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-content: center;       
+    }
+
+    .social-elem{
+        text-decoration: none;
+    }
+}

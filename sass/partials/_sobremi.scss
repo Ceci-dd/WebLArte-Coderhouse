@@ -1,0 +1,24 @@
+.section-sobremi{
+    .sobremibox{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .imagenesdeportada{
+        width: 100%;
+        height: 500px;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .sobremibox-item{
+        .info{
+            font-size: 20px;
+            font-family:$font;
+            padding: 30px;
+        }
+    }
+    
+}

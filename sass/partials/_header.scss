@@ -1,0 +1,48 @@
+//header
+.header{
+    background-color: white;
+    justify-content: center;
+    width: 100%; /*para que sea responsiva*/
+    padding: 0;
+    margin: 0;
+    
+    .content-box{
+        display: flex;
+        justify-content: center;
+        height: 205px; 
+
+        .box-logo{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            padding: 15px;
+        }
+    }
+
+    .fondonavbar{
+        background-color:$colorprincipal;
+
+        a{
+            color: white;
+            font-size: large;        
+        }
+
+       
+        .hovercolor :hover{
+            background-color:$colorsecundario;
+            color:$colorprincipal;
+            transform: scale(1.1);
+        }
+        
+        
+        .coloractivo{
+            a{
+                color:$colorsecundario;
+            } 
+            
+        } 
+    }
+
+}
+
+

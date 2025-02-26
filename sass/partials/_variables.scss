@@ -1,0 +1,12 @@
+//defino las variables a usar 
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+$colorprincipal:#fdb202;
+$colorsecundario:#fee990;
+$font:"darker grotesque", sanserif;
+
+@mixin dimensiones ($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
