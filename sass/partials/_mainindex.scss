@@ -1,0 +1,25 @@
+.main-index{
+    .sectionwave{
+        
+        .wave{
+            
+            background-image: url(/imagenes/wave.png);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: center;
+            
+
+
+
+        }
+
+        .waveelement{
+            color: $colorprincipal;
+            text-align: center;
+            width: 50%;
+
+        }
+
+    }
+}
