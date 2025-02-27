@@ -83,6 +83,12 @@
   padding: 20px;
 }
 
+.maincontacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
 .maincontacto .contacto-section .contacto {
   display: flex;
   flex-direction: row;
@@ -95,25 +101,30 @@
   justify-content: center;
   align-content: center;
 }
+.maincontacto .contacto-section .contacto .otrasformasdecontacto h1 {
+  font-family: "darker grotesque", sanserif;
+  font-size: 40px;
+}
 .maincontacto .contacto-section .contacto .otrasformasdecontacto .otrasformasdecontactologos {
   display: flex;
-  padding: 15px;
+  flex-direction: column;
 }
 .maincontacto .contacto-section .form {
   display: flex;
   background-color: white;
-  border-radius: 1rem;
+  border: solid 1px;
+  border-color: #fdb202;
+  border-radius: 10px;
   padding: 20px;
   margin: 60px;
-  margin-left: 100px;
 }
 .maincontacto .contacto-section .form .form-container {
   width: 100%;
   display: grid;
-  gap: 1rem;
+  gap: 8px;
   grid-auto-columns: 100%;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .maincontacto .contacto-section .form .form-container h2 {
   font-family: "darker grotesque", sanserif;
@@ -151,10 +162,20 @@
   padding: 30px;
   border-radius: 15px;
 }
+.section-sobremi .sobremibox-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-sobremi .sobremibox-item h1 {
+  font-family: "darker grotesque", sanserif;
+  font-size: 60px;
+}
 .section-sobremi .sobremibox-item .info {
   font-size: 20px;
   font-family: "darker grotesque", sanserif;
-  padding: 30px;
+  padding: 20px;
 }
 
 .masinfo-section .infodeproductos {

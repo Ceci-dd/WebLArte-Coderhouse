@@ -1,8 +1,11 @@
 //form de contacto y otras formas de contacto 
 
 .maincontacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
     .contacto-section{
-
         .contacto{
             display: flex;
             flex-direction: row;
@@ -15,11 +18,15 @@
                 justify-content: center;
                 align-content: center;
 
-                .otrasformasdecontactologos{
-                    display: flex;
-                    
-                    padding: 15px;
+                h1{
+                    font-family: $font;
+                    font-size: 40px;
                 }
+
+              .otrasformasdecontactologos{
+                display: flex;
+                flex-direction: column;
+              }
             }
 
         }
@@ -27,19 +34,21 @@
         .form{
             display: flex;
             background-color: white;
-            border-radius: 1rem;
+            border: solid 1px;
+            border-color: $colorprincipal;
+            border-radius: 10px;
             padding: 20px;
             margin: 60px;
-            margin-left: 100px;
+            
             
 
             .form-container{
                 width: 100%;
                 display: grid;
-                gap: 1rem;
+                gap: 8px;
                 grid-auto-columns: 100%;
-                padding-top: 35px;
-                padding-bottom: 35px;
+                padding-top: 10px;
+                padding-bottom: 10px;
                 
                 h2{
                     font-family: $font;
