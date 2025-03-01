@@ -18,26 +18,17 @@
     
         .contenedor-grid{
             .cardproductos{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+                @include flex; 
+                flex-direction: row; 
                 width: 100%;
-                padding: 50px;
-
-                
+                padding: 40px;
 
                 .textoobras{
                     font-family: $font;
                     font-size: 20px;
-                    padding: 20px;
+                    padding: 40px;
                 }
-
             }
-           
-        
-    
         }       
 }
-
 }

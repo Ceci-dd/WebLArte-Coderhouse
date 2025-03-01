@@ -6,7 +6,10 @@ $colorprincipal:#fdb202;
 $colorsecundario:#fee990;
 $font:"darker grotesque", sanserif;
 
-@mixin dimensiones ($ancho,$alto){
-    width: $ancho;
-    height: $alto;
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    align-items: center;
+    align-content: center;
 }

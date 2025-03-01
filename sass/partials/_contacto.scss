@@ -1,18 +1,14 @@
 //form de contacto y otras formas de contacto 
 
 .maincontacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     overflow-x: hidden;
     .contacto-section{
         .contacto{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-
+            @include flex;
+            flex-direction: row; 
+            padding: 10px;
+            
             .otrasformasdecontacto{
                 font-family: $font;
                 justify-content: center;

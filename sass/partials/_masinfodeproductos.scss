@@ -1,11 +1,9 @@
 .masinfo-section{
     .infodeproductos{
-        display: flex;
+        @include flex; 
         width: 95%;
         flex-direction: column;
-        padding: 100px;
-        justify-content: center;
-        align-items: center;
+        padding: 20px;
         justify-items: center;
     }
 
@@ -13,5 +11,13 @@
         width: 95%;
         max-width: 1000px;
         padding-bottom: 30px;
+    }
+
+    .infodeproductos{
+        p{
+            font-family: $font;
+            font-size: 20px;
+            padding: 20px;
+        }
     }
 }

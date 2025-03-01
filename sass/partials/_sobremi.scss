@@ -1,9 +1,7 @@
 .section-sobremi{
     .sobremibox{
-        display: flex;
-        justify-content: center;
+        @include flex;    
         flex-direction: row;
-        align-items: center;
     }
 
     .imagenesdeportada{
@@ -14,10 +12,8 @@
     }
 
     .sobremibox-item{
-        display: flex;
+        @include flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
         h1{
             font-family: $font;

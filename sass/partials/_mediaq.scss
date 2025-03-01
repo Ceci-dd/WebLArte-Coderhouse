@@ -89,4 +89,164 @@
         }
         
    }
+   
+   .main-index{
+    .sectionwave{
+        .wave{
+             
+            h1{
+                font-size: 1.5rem;
+                left: 35%;          
+            }
+            p{
+               visibility: hidden;    
+            }
+        }
+    }
 }
+
+.sectionwavesobremi{
+    .wave2{
+        h1{
+            visibility: hidden;        
+        } 
+}
+}
+
+.sectionwaveproductos{
+    .wave3{
+        h1{
+            visibility: hidden;
+        }
+    }
+}
+
+.sectionwavecontacto{
+    .wave4{
+        h1{
+            visibility: hidden;
+        }
+    }
+}
+
+.masinfowave{
+    .wave5{ 
+        h1{
+            visibility: hidden;
+                   
+        } 
+}
+}
+
+   
+}
+
+
+
+
+
+
+/*responsive para tablets de 1129 a 1280*/
+@media (min-width:1129px) and (max-width:1280px){
+
+    .dimensiones{
+        height: auto;
+     }  
+    
+    .main-index{
+     .sectionwave{
+         .wave{
+              
+             h1{
+                 font-size: 4rem;
+                 left: 40%;
+                 top: 42%;          
+             }
+
+             p{
+                top:55%;
+             }
+         }
+     }
+ }
+ 
+ .sectionwavesobremi{
+    .wave2{
+        h1{
+          top:37%;
+        }
+    }
+}
+ 
+ 
+ .sectionwaveproductos{
+     .wave3{
+         h1{
+           top:37%;
+         }
+     }
+ }
+ 
+ .sectionwavecontacto{
+     .wave4{
+         h1{
+            top:37%;
+         }
+     }
+ }
+    
+}
+
+
+/*responsive para tablets de 500px a 1128*/
+@media (min-width:500px) and (max-width:1128px){
+
+    .dimensiones{
+        height: auto;
+     }  
+    
+    .main-index{
+     .sectionwave{
+         .wave{
+              
+             h1{
+                 font-size: 4rem;
+                 left: 40%;
+                 top: 42%;          
+             }
+
+             p{
+                visibility: hidden;
+             }
+         }
+     }
+ }
+ 
+ .sectionwavesobremi{
+     .wave2{
+         h1{
+             visibility: hidden;       
+         } 
+ }
+ }
+ 
+ .sectionwaveproductos{
+     .wave3{
+         h1{
+             visibility: hidden;
+         }
+     }
+ }
+ 
+ .sectionwavecontacto{
+     .wave4{
+         h1{
+             visibility: hidden;
+         }
+     }
+ }
+    
+}
+
+
+

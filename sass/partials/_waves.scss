@@ -1,0 +1,98 @@
+.main-index{
+    .sectionwave{
+        .wave{
+            display: flex;
+            flex-direction: column;
+             
+            h1{
+                position:absolute;
+                font-size: 4rem;
+                color: $colorprincipal;
+                font-family: $font;  
+                left: 40%;
+                       
+            }
+            p{
+                position: absolute;
+                font-family: $font;
+                font-size: 1.5rem;
+                left: 18%;
+                top:50%;
+                
+            }
+        }
+
+    }
+}
+
+.sectionwavesobremi{
+    @extend .main-index;
+    .wave2{
+        display: flex;
+        flex-direction: column;
+         
+        h1{
+            position:absolute;
+            font-size: 4rem;
+            color: $colorprincipal;
+            font-family: $font;  
+            left: 40%;
+            top: 45%;
+                   
+        } 
+}
+}
+
+.sectionwaveproductos{
+    .wave3{
+        display: flex;
+        flex-direction: column;
+         
+        h1{
+            position:absolute;
+            font-size: 3rem;
+            color: $colorprincipal;
+            font-family: $font;  
+            left: 27%;
+            top: 45%;
+                   
+        } 
+}
+    
+}
+
+.sectionwavecontacto{
+    .wave4{
+        display: flex;
+        flex-direction: column;
+         
+        h1{
+            position:absolute;
+            font-size: 3rem;
+            color: $colorprincipal;
+            font-family: $font;  
+            left: 35%;
+            top: 45%;                
+        } 
+    }
+}
+
+.masinfowave{
+    .wave5{
+        display: flex;
+        flex-direction: column;
+        
+         
+        h1{
+            position:absolute;
+            font-size: 3rem;
+            color: $colorprincipal;
+            font-family: $font;  
+            left: 33%;
+            top: 45%;
+                   
+        } 
+}
+}
+
+
