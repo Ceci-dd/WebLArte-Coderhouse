@@ -2,7 +2,7 @@
 /*comentario de css*/
 
 //Nesting
-
+//variables se ubica primero
 @import "partials/variables";
 @import "partials/header";
 @import "partials/waves";
@@ -12,18 +12,10 @@
 @import "partials/masinfodeproductos";
 @import "partials/sobremi";
 @import "partials/masinfodeproductos";
+//mediaq siempre ultimo
 @import "partials/mediaq";
 
-//variables se ubica primero
-/*@use "partials/variables";
-@use "partials/header";
-@use "partials/footer";
-@use "partials/carouselygrillas";
-@use "partials/contacto";
-@use "partials/masinfodeproductos";
-@use "partials/sobremi";
-//mediaq siempre ultimo
-@use "partials/mediaq";*/
+
 
 
 
