@@ -92,12 +92,12 @@
    
    .main-index{
     .sectionwave{
-        .wave{
-             
+        .wave{   
             h1{
                 font-size: 1.5rem;
-                left: 35%;          
+                left: 35%;       
             }
+
             p{
                visibility: hidden;    
             }
@@ -108,7 +108,8 @@
 .sectionwavesobremi{
     .wave2{
         h1{
-            visibility: hidden;        
+           font-size: 1.5rem;
+           top: 39%;      
         } 
 }
 }
@@ -116,7 +117,9 @@
 .sectionwaveproductos{
     .wave3{
         h1{
-            visibility: hidden;
+            font-size: 1.5rem;
+            top: 26%;
+            left:12%;
         }
     }
 }
@@ -160,11 +163,11 @@
              h1{
                  font-size: 4rem;
                  left: 40%;
-                 top: 42%;          
+                 top: 28%;          
              }
 
              p{
-                top:55%;
+                visibility: hidden;
              }
          }
      }
@@ -212,7 +215,8 @@
              h1{
                  font-size: 4rem;
                  left: 40%;
-                 top: 42%;          
+                 top: 27%;
+                              
              }
 
              p{
@@ -225,7 +229,7 @@
  .sectionwavesobremi{
      .wave2{
          h1{
-             visibility: hidden;       
+           font-size: 1.5rem;         
          } 
  }
  }

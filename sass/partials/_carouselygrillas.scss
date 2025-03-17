@@ -19,7 +19,12 @@
                 flex-direction: row; 
                 width: 100%;
                 padding: 40px;
-
+                       
+                .obras{
+                    max-width: 400px;
+                    height: auto;
+                }
+               
                 .textoobras{
                     font-family: $font;
                     font-size: 20px;

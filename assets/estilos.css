@@ -44,6 +44,7 @@
   color: #fdb202;
   font-family: "darker grotesque", sanserif;
   left: 40%;
+  top: 39%;
 }
 .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
   position: absolute;
@@ -139,6 +140,10 @@
   width: 100%;
   padding: 40px;
 }
+.mainproductos .grilla-productos .contenedor-grid .cardproductos .obras {
+  max-width: 400px;
+  height: auto;
+}
 .mainproductos .grilla-productos .contenedor-grid .cardproductos .textoobras {
   font-family: "darker grotesque", sanserif;
   font-size: 20px;
@@ -167,9 +172,9 @@
   justify-content: center;
   align-content: center;
 }
-.maincontacto .contacto-section .contacto .otrasformasdecontacto h1 {
+.maincontacto .contacto-section .contacto .otrasformasdecontacto h2 {
   font-family: "darker grotesque", sanserif;
-  font-size: 40px;
+  font-size: 30px;
 }
 .maincontacto .contacto-section .contacto .otrasformasdecontacto .otrasformasdecontactologos {
   display: flex;
@@ -332,10 +337,13 @@
     visibility: hidden;
   }
   .sectionwavesobremi .wave2 h1 {
-    visibility: hidden;
+    font-size: 1.5rem;
+    top: 39%;
   }
   .sectionwaveproductos .wave3 h1 {
-    visibility: hidden;
+    font-size: 1.5rem;
+    top: 26%;
+    left: 12%;
   }
   .sectionwavecontacto .wave4 h1 {
     visibility: hidden;
@@ -352,10 +360,10 @@
   .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
     font-size: 4rem;
     left: 40%;
-    top: 42%;
+    top: 28%;
   }
   .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
-    top: 55%;
+    visibility: hidden;
   }
   .sectionwavesobremi .wave2 h1 {
     top: 37%;
@@ -375,13 +383,13 @@
   .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
     font-size: 4rem;
     left: 40%;
-    top: 42%;
+    top: 27%;
   }
   .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
     visibility: hidden;
   }
   .sectionwavesobremi .wave2 h1 {
-    visibility: hidden;
+    font-size: 1.5rem;
   }
   .sectionwaveproductos .wave3 h1 {
     visibility: hidden;
