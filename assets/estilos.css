@@ -291,6 +291,17 @@
   main-index .sectionwave .wave p {
     visibility: hidden;
   }
+  /*productos*/
+  .mainproductos .grilla-productos .contenedor-grid .cardproductos {
+    flex-direction: column;
+    width: 90%;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .cardproductos .textoobras {
+    font-size: 20px;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .cardproductos .obras {
+    width: 100%;
+  }
 }
 /*para mobile*/
 @media (max-width: 500px) {

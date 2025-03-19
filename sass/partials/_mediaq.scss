@@ -9,14 +9,38 @@
         height: auto;
      }  
 
-     main-index{
+    main-index{
         .sectionwave{
             .wave{     
                 p{
-                   visibility: hidden;    
+                   visibility: hidden;
                 }
-            }
+            }    
         }
+    }
+
+    /*productos*/
+    .mainproductos{
+
+        .grilla-productos{
+        
+            .contenedor-grid{
+                .cardproductos{
+                    flex-direction: column;
+                    width: 90%;
+
+                    .textoobras{
+                        font-size: 20px;            
+                    }
+
+                    .obras{
+                        width: 100%;      
+                    }
+    
+                } 
+            }       
+    }
+    
     }
 }
 
