@@ -283,6 +283,15 @@
 }
 
 /*Hago responsivos*/
+/*responsive para tablets de 501px a 1024*/
+@media (min-width: 501px) and (max-width: 1024px) {
+  .dimensiones {
+    height: auto;
+  }
+  main-index .sectionwave .wave p {
+    visibility: hidden;
+  }
+}
 /*para mobile*/
 @media (max-width: 500px) {
   .dimensiones {
@@ -353,15 +362,6 @@
   }
   .masinfowave .wave5 h1 {
     font-size: 2.5rem;
-  }
-}
-/*responsive para tablets de 501px a 1024*/
-@media (min-width: 501px) and (max-width: 1024px) {
-  .dimensiones {
-    height: auto;
-  }
-  main-index .sectionwave .wave p {
-    visibility: hidden;
   }
 }
 
