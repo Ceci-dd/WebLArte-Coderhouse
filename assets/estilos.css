@@ -39,12 +39,12 @@
   flex-direction: column;
 }
 .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
-  position: absolute;
+  background-color: #fff4c7;
+  margin: 0;
+  text-align: center;
   font-size: 4rem;
   color: #fdb202;
   font-family: "darker grotesque", sanserif;
-  left: 40%;
-  top: 39%;
 }
 .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
   position: absolute;
@@ -59,12 +59,12 @@
   flex-direction: column;
 }
 .sectionwavesobremi .wave2 h1 {
-  position: absolute;
-  font-size: 4rem;
+  background-color: #fff4c7;
+  margin: 0;
+  text-align: center;
+  font-size: 3.5rem;
   color: #fdb202;
   font-family: "darker grotesque", sanserif;
-  left: 40%;
-  top: 45%;
 }
 
 .sectionwaveproductos .wave3 {
@@ -72,12 +72,12 @@
   flex-direction: column;
 }
 .sectionwaveproductos .wave3 h1 {
-  position: absolute;
+  background-color: #fff4c7;
+  margin: 0;
+  text-align: center;
   font-size: 3rem;
   color: #fdb202;
   font-family: "darker grotesque", sanserif;
-  left: 27%;
-  top: 45%;
 }
 
 .sectionwavecontacto .wave4 {
@@ -85,12 +85,12 @@
   flex-direction: column;
 }
 .sectionwavecontacto .wave4 h1 {
-  position: absolute;
-  font-size: 3rem;
+  background-color: #fff4c7;
+  margin: 0;
+  text-align: center;
+  font-size: 3.5rem;
   color: #fdb202;
   font-family: "darker grotesque", sanserif;
-  left: 35%;
-  top: 45%;
 }
 
 .masinfowave .wave5 {
@@ -98,12 +98,12 @@
   flex-direction: column;
 }
 .masinfowave .wave5 h1 {
-  position: absolute;
-  font-size: 3rem;
+  background-color: #fff4c7;
+  margin: 0;
+  text-align: center;
+  font-size: 3.5rem;
   color: #fdb202;
   font-family: "darker grotesque", sanserif;
-  left: 42%;
-  top: 45%;
 }
 
 .footer {
@@ -332,6 +332,9 @@
   .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
     font-size: 1.5rem;
     left: 35%;
+    margin: 0;
+    background-color: #fdb202;
+    text-align: center;
   }
   .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
     visibility: hidden;
@@ -346,55 +349,18 @@
     left: 12%;
   }
   .sectionwavecontacto .wave4 h1 {
-    visibility: hidden;
+    font-size: 2rem;
   }
   .masinfowave .wave5 h1 {
-    visibility: hidden;
+    font-size: 2.5rem;
   }
 }
-/*responsive para tablets de 1129 a 1280*/
-@media (min-width: 1129px) and (max-width: 1280px) {
+/*responsive para tablets de 501px a 1024*/
+@media (min-width: 501px) and (max-width: 1024px) {
   .dimensiones {
     height: auto;
   }
-  .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
-    font-size: 4rem;
-    left: 40%;
-    top: 28%;
-  }
-  .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
-    visibility: hidden;
-  }
-  .sectionwavesobremi .wave2 h1 {
-    top: 37%;
-  }
-  .sectionwaveproductos .wave3 h1 {
-    top: 37%;
-  }
-  .sectionwavecontacto .wave4 h1 {
-    top: 37%;
-  }
-}
-/*responsive para tablets de 500px a 1128*/
-@media (min-width: 500px) and (max-width: 1128px) {
-  .dimensiones {
-    height: auto;
-  }
-  .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
-    font-size: 4rem;
-    left: 40%;
-    top: 27%;
-  }
-  .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
-    visibility: hidden;
-  }
-  .sectionwavesobremi .wave2 h1 {
-    font-size: 1.5rem;
-  }
-  .sectionwaveproductos .wave3 h1 {
-    visibility: hidden;
-  }
-  .sectionwavecontacto .wave4 h1 {
+  main-index .sectionwave .wave p {
     visibility: hidden;
   }
 }

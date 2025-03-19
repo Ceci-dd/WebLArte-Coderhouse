@@ -5,12 +5,12 @@
             flex-direction: column;
              
             h1{
-                position:absolute;
+                background-color: #fff4c7;
+                margin: 0;
+                text-align: center;
                 font-size: 4rem;
                 color: $colorprincipal;
                 font-family: $font;  
-                left: 40%; 
-                top: 39%;            
             }
             
             p{
@@ -31,13 +31,12 @@
         flex-direction: column;
          
         h1{
-            position:absolute;
-            font-size: 4rem;
+            background-color: #fff4c7;
+            margin: 0;
+            text-align: center;
+            font-size: 3.5rem;
             color: $colorprincipal;
-            font-family: $font;  
-            left: 40%;
-            top: 45%;
-                   
+            font-family: $font;           
         } 
 }
 }
@@ -48,12 +47,12 @@
         flex-direction: column;
          
         h1{
-            position:absolute;
+            background-color: #fff4c7;
+            margin: 0;
+            text-align: center;
             font-size: 3rem;
             color: $colorprincipal;
-            font-family: $font;  
-            left: 27%;
-            top: 45%;
+            font-family: $font;
                    
         } 
 }    
@@ -65,12 +64,12 @@
         flex-direction: column;
          
         h1{
-            position:absolute;
-            font-size: 3rem;
+            background-color: #fff4c7;
+            margin: 0;
+            text-align: center;
+            font-size: 3.5rem;
             color: $colorprincipal;
-            font-family: $font;  
-            left: 35%;
-            top: 45%;                
+            font-family: $font;                
         } 
     }
 }
@@ -82,13 +81,12 @@
         
          
         h1{
-            position:absolute;
-            font-size: 3rem;
+            background-color: #fff4c7;
+            margin: 0;
+            text-align: center;
+            font-size: 3.5rem;
             color: $colorprincipal;
-            font-family: $font;  
-            left: 42%;
-            top: 45%;
-                   
+            font-family: $font;            
         } 
 }
 }

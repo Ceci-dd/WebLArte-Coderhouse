@@ -92,10 +92,14 @@
    
    .main-index{
     .sectionwave{
-        .wave{   
+        .wave{ 
             h1{
                 font-size: 1.5rem;
-                left: 35%;       
+                left: 35%;
+                margin: 0;
+                background-color: $colorprincipal;
+                text-align: center; 
+                 
             }
 
             p{
@@ -127,7 +131,7 @@
 .sectionwavecontacto{
     .wave4{
         h1{
-            visibility: hidden;
+            font-size: 2rem;
         }
     }
 }
@@ -135,121 +139,30 @@
 .masinfowave{
     .wave5{ 
         h1{
-            visibility: hidden;
-                   
+            font-size: 2.5rem;                 
         } 
 }
+}  
 }
 
-   
-}
 
 
-
-
-
-
-/*responsive para tablets de 1129 a 1280*/
-@media (min-width:1129px) and (max-width:1280px){
+/*responsive para tablets de 501px a 1024*/
+@media (min-width:501px) and (max-width:1024px){
 
     .dimensiones{
         height: auto;
      }  
-    
-    .main-index{
-     .sectionwave{
-         .wave{
-              
-             h1{
-                 font-size: 4rem;
-                 left: 40%;
-                 top: 28%;          
-             }
 
-             p{
-                visibility: hidden;
-             }
-         }
-     }
- }
- 
- .sectionwavesobremi{
-    .wave2{
-        h1{
-          top:37%;
+     main-index{
+        .sectionwave{
+            .wave{     
+                p{
+                   visibility: hidden;    
+                }
+            }
         }
     }
-}
- 
- 
- .sectionwaveproductos{
-     .wave3{
-         h1{
-           top:37%;
-         }
-     }
- }
- 
- .sectionwavecontacto{
-     .wave4{
-         h1{
-            top:37%;
-         }
-     }
- }
-    
-}
-
-
-/*responsive para tablets de 500px a 1128*/
-@media (min-width:500px) and (max-width:1128px){
-
-    .dimensiones{
-        height: auto;
-     }  
-    
-    .main-index{
-     .sectionwave{
-         .wave{
-              
-             h1{
-                 font-size: 4rem;
-                 left: 40%;
-                 top: 27%;
-                              
-             }
-
-             p{
-                visibility: hidden;
-             }
-         }
-     }
- }
- 
- .sectionwavesobremi{
-     .wave2{
-         h1{
-           font-size: 1.5rem;         
-         } 
- }
- }
- 
- .sectionwaveproductos{
-     .wave3{
-         h1{
-             visibility: hidden;
-         }
-     }
- }
- 
- .sectionwavecontacto{
-     .wave4{
-         h1{
-             visibility: hidden;
-         }
-     }
- }
-    
 }
 
 
