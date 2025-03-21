@@ -283,26 +283,6 @@
 }
 
 /*Hago responsivos*/
-/*responsive para tablets de 501px a 1024*/
-@media (min-width: 501px) and (max-width: 1024px) {
-  .dimensiones {
-    height: auto;
-  }
-  main-index .sectionwave .wave p {
-    visibility: hidden;
-  }
-  /*productos*/
-  .mainproductos .grilla-productos .contenedor-grid .cardproductos {
-    flex-direction: column;
-    width: 90%;
-  }
-  .mainproductos .grilla-productos .contenedor-grid .cardproductos .textoobras {
-    font-size: 20px;
-  }
-  .mainproductos .grilla-productos .contenedor-grid .cardproductos .obras {
-    width: 100%;
-  }
-}
 /*para mobile*/
 @media (max-width: 500px) {
   .dimensiones {
@@ -351,10 +331,6 @@
   }
   .main-index .sectionwave .wave h1, .sectionwavesobremi .sectionwave .wave h1 {
     font-size: 1.5rem;
-    left: 35%;
-    margin: 0;
-    background-color: #fdb202;
-    text-align: center;
   }
   .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
     visibility: hidden;
@@ -373,6 +349,26 @@
   }
   .masinfowave .wave5 h1 {
     font-size: 2.5rem;
+  }
+}
+/*responsive para tablets de 501px a 1024*/
+@media (min-width: 501px) and (max-width: 1024px) {
+  .dimensiones {
+    height: auto;
+  }
+  .main-index .sectionwave .wave p, .sectionwavesobremi .sectionwave .wave p {
+    visibility: hidden;
+  }
+  /*productos*/
+  .mainproductos .grilla-productos .contenedor-grid .cardproductos {
+    flex-direction: column;
+    width: 90%;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .cardproductos .textoobras {
+    font-size: 20px;
+  }
+  .mainproductos .grilla-productos .contenedor-grid .cardproductos .obras {
+    width: 100%;
   }
 }
 

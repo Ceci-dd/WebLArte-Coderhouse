@@ -2,6 +2,139 @@
 
 /*Hago responsivos*/
 
+/*para mobile*/
+@media (max-width:500px){
+    .dimensiones{
+        height: auto;
+    }  
+
+    .maincontacto{
+         .contacto-section{
+ 
+            .contacto{
+                flex-direction: column;
+                margin: auto;
+                justify-content: space-between;
+     
+                .otrasformasdecontacto{
+                    justify-content: center;
+                }
+            }
+ 
+            .form{
+                justify-content: center;
+            }
+        }
+    }
+ 
+    /*sobremi*/
+  
+    .mainsobremi{
+        .section-sobremi{
+            .sobremibox{
+                flex-direction: column;
+                 
+            }
+        }
+    }
+ 
+     
+    /*productos*/
+    .mainproductos{
+ 
+        .grilla-productos{
+         
+            .contenedor-grid{
+                .cardproductos{
+                    flex-direction: column;
+                    width: 80%;
+                    border: solid 1px;
+                    border-color: $colorprincipal;
+                    margin: 40px;
+                    padding: 0;
+                    align-content: center;
+                    justify-items: center;
+                     
+                     
+     
+                    .textoobras{
+                         font-size: 12px;
+                         padding: 10px;             
+                    }
+ 
+                    .obras{
+                        height: 200px;
+                        justify-items: center;
+                        align-items: center;
+                        padding-top: 20px;
+                    }
+                } 
+            }       
+        }  
+    }
+ 
+ 
+ 
+    //mas info pag responive
+    .masinfo-section{
+        .infodeproductos{
+            padding: 20px;
+            width: 95%;
+            height: auto;
+        }      
+    }
+    
+    .main-index{
+        .sectionwave{
+            .wave{ 
+                h1{
+                    font-size: 1.5rem;     
+                }
+ 
+            p{
+                visibility: hidden;    
+            }
+            }
+        }
+    }
+ 
+    .sectionwavesobremi{
+        .wave2{
+            h1{
+                font-size: 1.5rem;
+                top: 39%;      
+            } 
+        }
+    }
+
+    .sectionwaveproductos{
+        .wave3{
+            h1{
+                font-size: 1.5rem;
+                top: 26%;
+                left:12%;
+            }
+        }
+    }
+ 
+    .sectionwavecontacto{
+        .wave4{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+ 
+    .masinfowave{
+        .wave5{ 
+            h1{
+                font-size: 2.5rem;                 
+            } 
+        }
+    }    
+}
+
+
 /*responsive para tablets de 501px a 1024*/
 @media (min-width:501px) and (max-width:1024px){
 
@@ -9,11 +142,11 @@
         height: auto;
      }  
 
-    main-index{
+    .main-index{
         .sectionwave{
-            .wave{     
+            .wave{   
                 p{
-                   visibility: hidden;
+                    visibility: hidden;
                 }
             }    
         }
@@ -39,154 +172,8 @@
     
                 } 
             }       
-    }
+        }
     
     }
 }
-
-
-/*para mobile*/
-@media (max-width:500px){
-
-    .dimensiones{
-       height: auto;
-    }  
-
-
-    .maincontacto{
-        .contacto-section{
-
-            .contacto{
-                flex-direction: column;
-                margin: auto;
-                justify-content: space-between;
-    
-            .otrasformasdecontacto{
-                justify-content: center;
-            }
-            }
-
-            .form{
-                justify-content: center;
-            }
-        }
-    }
-
-    /*sobremi*/
- 
-    .mainsobremi{
-        .section-sobremi{
-            .sobremibox{
-                flex-direction: column;
-                
-            }
-        }
-    }
-
-    
-    /*productos*/
-    .mainproductos{
-
-        .grilla-productos{
-        
-            .contenedor-grid{
-                .cardproductos{
-                    flex-direction: column;
-                    width: 80%;
-                    border: solid 1px;
-                    border-color: $colorprincipal;
-                    margin: 40px;
-                    padding: 0;
-                    align-content: center;
-                    justify-items: center;
-                    
-                    
-    
-                    .textoobras{
-                        font-size: 12px;
-                        padding: 10px;             
-                    }
-
-                    .obras{
-                        height: 200px;
-                        justify-items: center;
-                        align-items: center;
-                        padding-top: 20px;
-                    }
-    
-                } 
-            }       
-    }
-    
-    }
-
-
-
-   //mas info pag responive
-   .masinfo-section{
-        .infodeproductos{
-            padding: 20px;
-            width: 95%;
-            height: auto;
-
-        }
-        
-   }
-   
-   .main-index{
-    .sectionwave{
-        .wave{ 
-            h1{
-                font-size: 1.5rem;
-                left: 35%;
-                margin: 0;
-                background-color: $colorprincipal;
-                text-align: center; 
-                 
-            }
-
-            p{
-               visibility: hidden;    
-            }
-        }
-    }
-}
-
-.sectionwavesobremi{
-    .wave2{
-        h1{
-           font-size: 1.5rem;
-           top: 39%;      
-        } 
-}
-}
-
-.sectionwaveproductos{
-    .wave3{
-        h1{
-            font-size: 1.5rem;
-            top: 26%;
-            left:12%;
-        }
-    }
-}
-
-.sectionwavecontacto{
-    .wave4{
-        h1{
-            font-size: 2rem;
-        }
-    }
-}
-
-.masinfowave{
-    .wave5{ 
-        h1{
-            font-size: 2.5rem;                 
-        } 
-}
-}  
-}
-
-
 
